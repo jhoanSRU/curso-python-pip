@@ -1,1 +1,0 @@
-print('hola care nalga')
