@@ -6,5 +6,6 @@ def get_categories():
     print(r.text)
     categories = r.json()
     names = list(map(lambda category: category['name'],categories))
+    image = list(map(lambda category: category['image'],categories))
 
-    print(names)
+    print(image)
